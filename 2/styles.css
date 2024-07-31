@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto';
+
+}
+
+header{
+    background-color: white;
+    height: 20vh;
+    width: 100%;
+    align-items: center;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    margin-inline: auto;
+  
+}
+
+.logo img{
+    width: auto;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    
+}
+
+nav ul  li a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.25rem; 
+    font-weight: 700;
+     color: black;
+}
+
+.sub-navigation {
+    border-bottom: 0.2rem solid black;
+}
+
+footer {
+    display: flex;
+    height: 35vh;
+    max-width: 80%;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 5% auto 0 auto;
+     
+}
+
+.border-separator {
+    border-top: 1px solid #888888; 
+    margin: 20px 0; 
+    width: 100%; 
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column; 
+    gap: 1.5rem;
+}
+
+.footer-address-links{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer-address{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.footer-contact{
+    display: flex;
+    flex-direction: column; 
+    gap: 1rem;
+}
+
+.footer-contact h2{
+    font-size: medium;
+}
+
+.footer-address h2{
+    font-size: medium;
+}
+
+.footer-links a{
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-contact p a {
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto; 
+    width: 80%; 
+    
+    
+    
+}
+
+
+main h1 {
+    align-self: flex-start; 
+    margin-bottom: 1rem;
+}
+
+
+
+.gallery-row {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 1.5rem; 
+    width: 100%; 
+    margin-bottom: 2rem; 
+}
+
+.gallery-items {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+   
+    max-width: 45%; 
+}
+
+.gallery-items img {
+    height: 20rem;
+    width: auto;
+    border-radius: 0.5rem; 
+}
+
+.gallery-items figcaption {
+    padding-top: 1rem; 
+    text-align: start; 
+}
+
+.gallery-items figcaption h2 {
+    margin-top: 0; 
+    margin-bottom: 0.5rem; 
+}
+
+.gallery-items figcaption p {
+    margin-bottom: 0.5rem;
+}
+
+.gallery-items figcaption a {
+    text-decoration: none; 
+    color: #000000; 
+}
+
+.news-Section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin: auto;
+}
+
+
+.image-gallery {
+    display: flex;
+    flex-direction: column; 
+    gap: 1.5rem; 
+    align-items: flex-start; 
+    margin: auto;
+    justify-content: space-between;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: space-between; 
+    gap: 1.5rem; 
+    width: 100%; 
+}
+
+.gallery-item {
+    flex: 1; 
+    max-width: 20rem; 
+}
+
+.gallery-item img {
+    height: 35vh;
+    width: 100%; 
+    object-fit: cover; 
+    border-radius: 0.5rem; 
+}
+
+.contact-section {
+    border: 1px solid #ccc;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.contact-section h2 {
+    margin-bottom: 1rem;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-section label {
+    font-weight: bold;
+}
+
+.contact-section input[type="email"],
+.contact-section textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+.contact-section .submit-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+.contact-section .submit-button:hover {
+    background-color: #444;
+}
+
+
+.image-descriptions{
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+.image-descriptions img {
+    height: 60vh;
+    width: 80%;
+
+}

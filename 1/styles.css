@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto';
+
+}
+
+header{
+    background-color: white;
+    height: 20vh;
+    width: 100%;
+    align-items: center;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    margin-inline: auto;
+  
+}
+
+.logo img{
+    width: auto;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    
+}
+
+nav ul  li a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.25rem; 
+    font-weight: 700;
+     color: black;
+}
+
+.hero-section{
+    display: flex;
+    height: 61.5vh;
+    max-width: 80%;
+    margin-inline: auto;
+    align-items: end;
+    background-color: #f0eaea;
+    
+}
+
+.hero-section-intro {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3.1rem;
+    gap: 1rem;
+    padding-bottom: 3rem;
+}
+
+
+.hero-section-intro a {
+    color: black;
+}
+.hero-section-intro h1{
+    font-size: 2.5rem;
+    font: bold;
+}
+
+.hero-section-intro p{
+    font-size: 1.5rem;
+}
+
+.second-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 40.4rem;
+    max-width: 80%;
+    border-color: black;
+    margin: 5% auto 0;
+}
+
+.second-section-content{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 37.8rem;
+   
+    
+}
+
+.second-section-sidebar {
+    height: 37vh;
+    max-width: 37.1vh;
+    border: 0.1em solid black;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+     justify-content: start;
+    padding: 1.5em;            
+}
+
+.second-section-sidebar h1 {
+    font: 1.5rem;           
+}
+
+.second-section-sidebar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 2em;           
+}
+
+.second-section .button-link {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 0.2em 1em;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5em;
+    transition: background-color 0.3s ease;
+}
+
+.second-section .learn-more{
+    color: #000000;
+}
+
+.third-section{
+    display: flex;
+    align-items: flex-start;
+    margin: 3% auto;
+    height: 44.1vh;
+    max-width: 80%;
+    justify-content: space-between;
+}
+
+.third-section img {
+    width: 30vw; 
+    height: auto; 
+    margin: 0%;
+}
+
+.third-section article h1 {
+    font: 1.2rem;
+    margin-bottom: 8%;
+}
+
+.image-section img {
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    margin: 8% auto;
+}
+
+.form-section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+    height: 59.4vh;
+    margin: auto;
+    gap: 2rem;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.submit-button{
+    display: inline-block;
+    max-width: 5.3rem;
+    margin-top: 2%;
+    padding: 0.2em 1em;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5em;
+    transition: background-color 0.3s ease;
+}
+
+.form-section-map iframe {
+    height: 55vh; 
+    max-width: 100%; 
+    border: 2px solid #ccc; 
+    border-radius: 1.2em; 
+}
+
+footer {
+    display: flex;
+    height: 35vh;
+    max-width: 80%;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 5% auto 0 auto;
+     
+}
+
+.border-separator {
+    border-top: 1px solid #888888; 
+    margin: 20px 0; 
+    width: 100%; 
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column; 
+    gap: 1.5rem;
+}
+
+.footer-address-links{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer-address{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.footer-contact{
+    display: flex;
+    flex-direction: column; 
+    gap: 1rem;
+}
+
+.footer-contact h2{
+    font-size: medium;
+}
+
+.footer-address h2{
+    font-size: medium;
+}
+
+.footer-links a{
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-contact p a {
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
